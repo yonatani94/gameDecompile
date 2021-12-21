@@ -9,14 +9,14 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.GameDecompile"/>
-    <activity android:name="com.example.gamedecompile.Activity_Game" android:screenOrientation="portrait"
-        tools:ignore="WrongManifestParent" />
-    <activity android:name="com.example.gamedecompile.Activity_Menu" android:screenOrientation="portrait"
-        tools:ignore="WrongManifestParent">
+        android:theme="@style/Theme.GameDecompile">
+    <activity android:name="com.example.gamedecompile.Activity_Game" android:screenOrientation="portrait"/>
+    <activity android:name="com.example.gamedecompile.Activity_Menu" android:screenOrientation="portrait">
         <intent-filter>
             <action android:name="android.intent.action.MAIN"/>
             <category android:name="android.intent.category.LAUNCHER"/>
         </intent-filter>
     </activity>
+
+        </application>
 </manifest>
